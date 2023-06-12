@@ -106,3 +106,13 @@ m1 %*% m2   # 2 X 2
 
 # 전치 행렬(transpose)
 t(m1)
+
+
+##### Array
+arr = array(1:24, dim=c(2,3,4)) # dim= 생략 가능
+arr
+dim(arr)
+length(arr)
+
+arr[1, 1, 4]    # 19
+

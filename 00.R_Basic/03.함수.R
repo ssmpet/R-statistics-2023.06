@@ -30,7 +30,7 @@ fibo = function(n) {
 for( i in 1:10){
     print(paste(i, fibo(i)))
 }
-
+ 
 
 ##### 전역 변수
 txt = '전역 변수'

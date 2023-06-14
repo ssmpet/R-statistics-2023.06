@@ -20,3 +20,4 @@ tail(pop)
 #binary file로 저장
 save.image('data/pop.rda')
 
+ 

@@ -25,3 +25,4 @@ ggplot(df, aes(x=year, y=x)) +
     ggtitle('나일강의 연도별 유량 변화') +
     xlab('연도') + ylab('유량')
 
+  

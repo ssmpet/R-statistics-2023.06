@@ -28,4 +28,4 @@ y = c(3, 4, 6, 7)
 barplot(y, names.arg=x, col='red')
 
 
-    
+     

@@ -28,4 +28,4 @@ hist(m10, xlim=c(-1.5, 1.5), main='표본의 크기: 10',
 
 hist(m40, xlim=c(-1.5, 1.5), main='표본의 크기: 40', 
      xlab='x', ylab='y', col='cyan', border='blue')
-par(mfrow=c(1, 1))
+par(mfrow=c(1, 1)) 

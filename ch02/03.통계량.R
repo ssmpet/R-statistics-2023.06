@@ -38,7 +38,7 @@ median.idx
 sort(rc)[median.idx]
 
 median(cafe$Coffees, na.rm=T)
-
+ 
 # 양 끝 값의 변화에 따른 평균의 변화는 크고, 중앙값의 변화는 없다.
 
 ##### 자료의 퍼진 정도 - 표준편차와 사분위수

@@ -30,4 +30,4 @@ pie(tableV4, main='학력수준별 비중', cex=0.8)
 
 
 
-
+ 

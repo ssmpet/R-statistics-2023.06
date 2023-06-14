@@ -48,7 +48,7 @@ patients
 # 크기
 dim(patients)
 
-
+ 
 ##### Factor
 genre = factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Rock", "Jazz"), levels = c("Classic", "Jazz", "Pop", "Rock", "Other"))
 genre

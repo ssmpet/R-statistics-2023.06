@@ -29,7 +29,7 @@ for (species in c('setosa', 'versicoler', 'virginica')) {
         print(paste(species, '품종의', feature_name, '피처의 이상치는', length(outliers), '개입니다.'))
     }
 }
-
+ 
 
 boxplot(iris[iris$Species == 'setosa', 'Sepal.Width'])
 boxplot(iris[iris$Species == 'setosa', 'Petal.Length'])

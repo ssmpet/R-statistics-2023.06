@@ -39,7 +39,7 @@ print(paste(i, cum.sum))    # 46 1035
 ##### for 반복문
 for (x in 1:10) {           # 1 ~ 10 까지의 sequence
     print(x)
-}
+}  
 
 # vector
 dice = c(1, 2, 3, 4, 5, 6)

@@ -22,3 +22,4 @@ pnorm(760, e2, s2)
 e3 = 70
 s3 = 8
 pnorm(90, e3, s3) - pnorm(80, e3, s3)
+  

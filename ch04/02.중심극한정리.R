@@ -31,7 +31,7 @@ x2 = seq(min(r2.mean), max(r2.mean), length=n)
 y2 = dnorm(x2, 170, 6/sqrt(4))
 lines(x2, y2, lty=2, lwd=2, col='blue')
 
-
+ 
 ### 모집단이 임의의 분포(이항분포)일 경우
 set.seed(9)
 t = 10

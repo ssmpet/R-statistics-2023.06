@@ -101,7 +101,7 @@ m1 = matrix(c(1:6), nrow=2, ncol=3) # 2 X 3
 m1
 m2 = matrix(c(1:6), nrow=3, ncol=2) # 3 x 2
 m2
-
+ 
 m1 %*% m2   # 2 X 2
 
 # 전치 행렬(transpose)

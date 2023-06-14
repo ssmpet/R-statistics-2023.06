@@ -52,7 +52,7 @@ y = dnorm(x, mean=mu, sd=sigma)
 plot(x, y, type='l', xlab='남학생의 키', ylab='P[X=x]',
      lwd=2, col='red', main='N(170, 6^2)')
 
-prob = round(pnorm(180, 170, 7), 4)
+prob = round(pnorm(180, 170, 6), 4)
 print(paste('180cm보다 큰 학생의 확률은 ', 1-prob, '입니다.'))
 
 # 상위 10%에 속하려면 키가 얼마이어야 하는가?

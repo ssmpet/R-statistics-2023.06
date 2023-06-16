@@ -2,11 +2,17 @@
 windowsFont(malgun='맑은 고딕')
 par(mfrow=c(1, 1), family='malgun', oma=c(0,0,0,0))
 x = seq(-3, 3, by=0.01)
+length(x)
 y = dnorm(x)            # 표준정규분포
+length(y)
 t1 = dt(x, df=1)        # 자유도가 1인 T분포
+length(t1)
 t2 = dt(x, df=2)
+length(t2)
 t8 = dt(x, df=8)
+length(t8)
 t30 = dt(x, df=30)
+length(t30)
 
 plot(x, y, type='l', lty=1, axes=F, xlab='x', ylab='', col='red')
 axis(1)
@@ -49,6 +55,7 @@ lines(x, f10.5, lwd=2, lty=3, col='green')
 lines(x, f10.20, lwd=2, lty=4, col='magenta')
 legend('topright', paste('df:', c('3, 5', '3, 20', '10, 5', '10, 20')), lty=c(1, 2, 3, 4),
        col=c('black', 'red', 'green', 'magenta'), cex=0.7)
+
 
 
 

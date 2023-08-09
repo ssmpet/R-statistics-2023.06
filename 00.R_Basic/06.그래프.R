@@ -28,4 +28,7 @@ y = c(3, 4, 6, 7)
 barplot(y, names.arg=x, col='red')
 
 
+pairs(iris[1:4], main="Anderson's Iris Data -- 3 species",
+      pch=21, bg=c("red", "green3", "blue")[unclass(iris$Species)])
+
      
